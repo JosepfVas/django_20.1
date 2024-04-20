@@ -12,6 +12,7 @@
              </svg>
              <div class="card-body">
                <p class="card-text">{{ product.name }}</p>
+               <p class="card-text">{{ product.description|truncatechars:50 }}</p>
                <p class="card-text">{{ product.price }} ₽</p>
                <div class="d-flex justify-content-between align-items-center">
                  <div class="btn-group">
